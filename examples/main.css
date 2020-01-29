@@ -72,7 +72,7 @@
      background-attachment: fixed;
      align-items: center;
      display: block;
-
+  font-family:'Inter-SemiBold'
      justify-content: center;
      min-height: 100vh;
      text-align: center;
@@ -124,7 +124,8 @@
 	margin-top: -9px; 
 	text-align: right;
 	margin-right: 0px;
-	padding-right: 15px;}
+	padding-right: 15px;
+  font-family:'Inter-SemiBold'}
 
 
 .sidearchive {
@@ -147,6 +148,7 @@
      margin: 1em 0;
      line-height: 1.1em;
      color: #7D14ED;
+       font-family:'Inter-SemiBold'
 
      font-size: 1.2em
  }
