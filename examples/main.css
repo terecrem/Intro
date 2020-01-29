@@ -1,8 +1,4 @@
-   @font-face {
-   font-family: 'Inter-Regular';
-   src: url('Inter-Regular.otf') format('truetype');
-      
-}
+
 
 
 @font-face {
@@ -68,7 +64,7 @@
  body {
      line-height: 1;
      min-height: 100%;
-     font-family: Inter-Semibold, sans-serif;
+     font-family: 'Inter-Semibold', sans-serif;
  }
 
  body {
@@ -180,6 +176,7 @@
      font-size: 2em;
      margin: 2em 0 1em 0;
      line-height: 1.3em;
+     font-family:'Inter-SemiBold'
  }
 
  .h2viola {
@@ -187,6 +184,7 @@
      font-size: 2.3em;
      margin: 2em 0 1em 0;
      line-height: 1.3em;
+       font-family:'Inter-SemiBold'
  }
 
 
@@ -197,7 +195,8 @@
      margin: 2em 0 1em 0;
      line-height: 1.1em;
      margin-top: -10px;
-     text-align: center
+     text-align: center;
+           font-family:'Inter-SemiBold'
  }
 
 
@@ -230,6 +229,7 @@
      font-weight: 600;
      margin: 1em 0;
      text-decoration: none;
+       font-family:'Inter-SemiBold'
  }
 
  a:hover {
@@ -345,7 +345,7 @@
 
  .parolebig {
     color: #7D14ED;
- 
+   font-family:'Inter-SemiBold'
      background: none;
      font-size: 4.5em;
  }
@@ -354,6 +354,7 @@
      color:#7D14ED;
      background: none;
      font-size: 4.5em;
+       font-family:'Inter-SemiBold'
  }
 
  .icona {
@@ -411,12 +412,12 @@
 
 
  .linkarchive {
-
+  font-family:'Inter-SemiBold'
      color: #7D14ED;
  }
 
  .linkarchive:hover {
-
+  font-family:'Inter-SemiBold'
      color: black;
  }
 
@@ -428,6 +429,7 @@
  }
 
 .sixreasons{
+      font-family:'Inter-SemiBold'
      font-size: 1.5em;
 margin-left: 8.5%;
  }
