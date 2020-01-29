@@ -1,4 +1,18 @@
- * {
+   @font-face {
+   font-family: 'Inter-Regular';
+   src: url('Inter-Regular.otf') format('truetype');
+      
+}
+
+
+@font-face {
+   font-family: 'Inter-SemiBold';
+   src: url('IBMPlexSans-Medium.ttf') format('truetype');
+}
+
+
+
+* {
      box-sizing: border-box;
      margin: 0;
      padding: 0;
