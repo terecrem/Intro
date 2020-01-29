@@ -11,9 +11,23 @@
     <link href="examples/fixed-positioning.css" rel="stylesheet" type="text/css" />
     <link href="examples/main.css" rel="stylesheet" type="text/css" />
 
-  <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="animate.min.css">
 
- 
+  <style>
+     
+
+        @font-face {
+            font-family: 'Inter-Regular';
+            src: url('Inter-Regular.otf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Inter-SemiBold';
+            src: url('Inter-Regular.otf') format('truetype');
+        }
+
+       
+    </style>
 </head>
 
 <body>
@@ -23,20 +37,20 @@
 
     <!-- BARRA NAVIGAZIONE IN BASSO
 <div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div> -->
-	<div id="intro" class="centrata" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-0.2deg);">
-		<!--<h1><a href="https://github.com/Prinzhorn/skrollr">Lorem</a></h1>
+    <div id="intro" class="centrata" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-0.2deg);">
+        <!--<h1><a href="https://github.com/Prinzhorn/skrollr">Lorem</a></h1>
 		<h2 class="titolo" style="margin-top: 60px;">THE JUSTIFIED ARCHIVE</h2>-->
-		
-		<div id="container">
-			<div class="first_text"> THE <i style="font-weight: 600">JUSTIFIED</i></div>
-			<div class="sidearchive">
-				<div id="archive">ARCHIVE</div>
-			</div>
-		</div>
-			
-		<div class="sideBySide" id="rettangolo"></div>
 
-	</div>
+        <div id="container">
+            <div class="first_text"> THE <i style="font-weight: 600">JUSTIFIED</i></div>
+            <div class="sidearchive">
+                <div id="archive">ARCHIVE</div>
+            </div>
+        </div>
+
+        <div class="sideBySide" id="rettangolo"></div>
+
+    </div>
 
     <!--<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(0);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(0);opacity:0;">
 		<h2>Body and Face modification apps let you edit images of yourself</h2>
@@ -179,8 +193,11 @@ data-6500="opacity:1;font-size:300%;font-weight:600;color:orange;">1.000.000 of 
 
 
 
-            <video style="margin-top: -0.5%;" id="bgvid" autoplay loop muted playsinline>
+     <!--       <video style="margin-top: -0.5%;" id="bgvid" autoplay loop muted playsinline>
                 <source src="conv_uff.mov" type="video/mp4">
+            </video>  -->
+
+            <video style="margin-top: -0.5%;" id="bgvid" src="conv_uff.mov" type="video/mp4">
             </video>
 
 
@@ -219,10 +236,10 @@ data-6500="opacity:1;font-size:300%;font-weight:600;color:orange;">1.000.000 of 
 
 
     <div id="download" data-19300="top:100%;border-radius[cubic]:0em;background:rgb(241,242,243);border-width:0px;" data-21000="top:0%;border-radius:0em;background:rgb(241,242,243);border-width:5px;opacity:1;">
-         
+
         <div id="categorie">
-                 
-  <h2 class="sixreasons"> SIX REASON'S WHY </h2>
+
+            <h2 class="sixreasons"> SIX REASON'S WHY </h2>
 
             <div class="row">
                 <div class="box">
@@ -290,10 +307,10 @@ data-6500="opacity:1;font-size:300%;font-weight:600;color:orange;">1.000.000 of 
 
             <div class="linkarchivebox">
                 <a style="margin-top: 2em" class="linkarchive" href="https://steinhardt21.github.io/thirdphase/" target="_blank">
-                  <p class=" linka animated infinite pulse	 delay-1s">DISCOVER THE ARCHIVE</p>
-</a>
-                
-              
+                    <p class=" linka animated infinite pulse	 delay-1s">DISCOVER THE ARCHIVE</p>
+                </a>
+
+
             </div>
 
             <div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
