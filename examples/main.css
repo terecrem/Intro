@@ -160,7 +160,7 @@
  }
 
 #btn_about
-	{  background-color:#f2f1f3;
+	{  background-color:white;
         margin-left: -1100px;
           margin-top: 5em;
 		width: 100px;
@@ -192,7 +192,7 @@
   width: 46px;
   height: 46px;
   margin-left: -23px;
-  border: 1.5px solid black;
+  border: 0px solid black;
   border-radius: 100%;
   box-sizing: border-box;
         animation: appare 3s;
