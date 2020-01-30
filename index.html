@@ -13,27 +13,21 @@
 
     <link rel="stylesheet" href="animate.min.css">
 
-  <style>
-
+    <style>
         @font-face {
             font-family: 'Inter-SemiBold';
-            src: url('Inter-Regular.otf') format('truetype');
+            src: url('font/Inter-Regular.otf') format('truetype');
         }
-
-       
     </style>
 </head>
 
 <body>
-    <div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-    <div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
-    <div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
 
-    <!-- BARRA NAVIGAZIONE IN BASSO
-<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div> -->
+
+    <!-- INTRO-->
+
     <div id="intro" class="centrata" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-0.2deg);">
-        <!--<h1><a href="https://github.com/Prinzhorn/skrollr">Lorem</a></h1>
-		<h2 class="titolo" style="margin-top: 60px;">THE JUSTIFIED ARCHIVE</h2>-->
+
 
         <div id="container">
             <div class="first_text"> THE <i style="font-weight: 600">JUSTIFIED</i></div>
@@ -46,16 +40,33 @@
 
     </div>
 
-    <!--<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(0);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(0);opacity:0;">
-		<h2>Body and Face modification apps let you edit images of yourself</h2>
+    <!-- Bottone ABOUT-->
+
+    <!--<div class="col-6 col-md-1 offset-md-1" style="margin-right: 3.3%;">
+				<button id="btn_about" type="button" class="btn"><a href="about.html" class="testoskip">SKIP </a></button>
+			</div>-->
+
+    <!-- <div class="skip">
+     <a  href="https://steinhardt21.github.io/thirdphase/" >
+                 Skip
+                </a>
         
-		<p >Istantly </p>
-        	<p>effortlessy  </p>
-        	<p>everywhewre </p>
-	</div>-->
+        </div>-->
+
+    <a href="https://steinhardt21.github.io/thirdphase/">
+
+        <input id="btn_about" name="button" value="SKIP" style="font-family: 'Inter-SemiBold'" type="submit"></a>
+
+
+    <section data-0="opacity:1;top:1%;left:50%;" data-500="opacity:0;" id="section02" class="demo">
+        <a href="#section03"><span></span></a>
+    </section>
+
+
+
 
     <div id="properties" data-1000="opacity:0;" data-1400="opacity:1;" data-3000="opacity:1;" data-3500="opacity:0;">
-        <h2>Face and Body modification apps <br>let you edit images of yourself</h2>
+        <h2 style="margin-top: -90px;">Face and Body modification apps <br>let you edit images of yourself</h2>
     </div>
 
     <div id="easing" data-1100="left:100%" data-1400="left:20%;" data-2500="display:block;" data-2700="left:100%">
@@ -72,19 +83,11 @@
         <p class="parolebig" style="margin-top: 3.5em;">Everywhere </p>
     </div>
 
-    <!-- <div class="properties" data-1000="right:100%;" data-1600="right:5%;" data-2100="display:block;" data-2900="right:100%;display:none;">
-		<h2 id="section_1">instantly</h2>
-		<h2 id="section_1" >everywhere</h2>
-	</div>-->
-    <!--	<div class="properties" data-1000="left:100%;" data-1600="left:5%;" data-2100="display:block;" data-2900="left:100%;display:none;">
-		<h2 id="section_11" >effortless</h2>
-	</div>-->
-
 
 
     <div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:#f2f1f3 ;color[swing]:rgb(0,0,0);" data-5900="background:#f2f1f3" data-10000="top:0%;" data-12000="top:-100%;">
         <div id="intro" class="centrata" data-3900="opacity:0" data-4600="opacity:1" data-10000="display:block" data-10600="opacity:0;">
-            <!--<h2>How many apps?</h2>-->
+
             <h2 class="h2" style=" margin-top: 85px;">On Google Play Store you can find <br> tot amount of this apps, downloaded more than</h2>
             <p class="number"> <span data-3900="" data-5500="color[swing]:rgb(241,242,243);" data-5900="color:rgb(136,0,255); ">5.000.000 times </span> </p>
             <!--  <h2 class="h2" style=" margin-top: -1.7em"> times </h2> -->
@@ -96,7 +99,7 @@ data-6500="opacity:1;font-size:300%;font-weight:600;color:orange;">1.000.000 of 
 
         </div>
 
-
+        <!-- ICONE -->
         <div class="drop" data-6500="left:2%;bottom:100%;" data-9500="bottom:5%; opacity:1" data-10600="opacity:0"><img class="icona" src="./images/1.png"> </div>
         <div class="drop" data-6500="left:8%;bottom:100%;" data-9500="bottom:22%;opacity:1" data-10600="opacity:0"> <img class="icona" src="./images/2.png"> </div>
         <div class="drop" data-6500="left:22%;bottom[quadratic]:100%;" data-9500="bottom:30%;opacity:1" data-10600="opacity:0"> <img class="icona" src="./images/3.png"> </div>
@@ -187,48 +190,22 @@ data-6500="opacity:1;font-size:300%;font-weight:600;color:orange;">1.000.000 of 
 
 
 
-<video style="margin-top: -0.5%;" id="bgvid" autoplay loop muted playsinline>
+            <video style="margin-top: -0.5%;" id="bgvid" autoplay loop muted playsinline>
                 <source src="conv_uff.mov" type="video/mp4">
-            </video>  
+            </video>
 
-       
+
 
 
         </div>
 
-        <script>
-            ! function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = "//platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            }(document, "script", "twitter-wjs");
-        </script>
 
-        <div class="bottone">
-            <p>
-                <script>
-                    ! function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (!d.getElementById(id)) {
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = "//platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }
-                    }(document, "script", "twitter-wjs");
-                </script>
-            </p>
-        </div>
     </div>
 
 
 
 
-    <div id="download" data-19300="top:100%;border-radius[cubic]:0em;background:rgb(241,242,243);border-width:0px;" data-21000="top:0%;border-radius:0em;background:rgb(241,242,243);border-width:5px;opacity:1;">
+    <div id="download" data-19300="top:100%;border-radius[cubic]:0em;background:rgb(241,242,243);border-width:0px;" data-21000="top:0%;border-radius:0em;background:rgb(242,241,243);border-width:5px;opacity:1;">
 
         <div id="categorie">
 
@@ -291,29 +268,29 @@ data-6500="opacity:1;font-size:300%;font-weight:600;color:orange;">1.000.000 of 
                 </div>
             </div>
 
-            <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	
-		<div class="bottone"><p> <a class="archive" href="https://twitter.com/Prinzhorn" class="twitter-follow-button" data-show-count="false">Discover how</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p> </div>
-	</div>
-            -->
 
-            <div class="linkarchivebox">
-                <a style="margin-top: 2em" class="linkarchive" href="https://steinhardt21.github.io/thirdphase/" target="_blank">
-                    <p class=" linka animated infinite pulse	 delay-1s">DISCOVER THE ARCHIVE</p>
+
+
+            <div class="linkarchivebox animated infinite pulse delay-1s">
+                <a href="https://steinhardt21.github.io/thirdphase/" style="color:white;">
+           DISCOVER THE ARCHIVE
                 </a>
 
 
             </div>
 
-            <div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+          <!--  <a href="https://steinhardt21.github.io/thirdphase/">
+
+                <input id="btn_about2" name="button" value="DISCOVER THE ARCHIVE" style="font-family:'Inter-SemiBold'; color:white" type="submit"></a>-->
+            
+            
+
+
 
             <script type="text/javascript" src="dist/skrollr.min.js"></script>
 
-            <!--[if lt IE 9]>
-	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
-	<![endif]-->
         </div>
+                </div>
 
 
         <script type="text/javascript">

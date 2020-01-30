@@ -2,8 +2,9 @@
 
 
 @font-face {
-   font-family: 'Inter-SemiBold';
-   src: url('Inter-SemiBold.otf') format('truetype');
+
+   src: url('font/Inter-SemiBold.otf') ; 
+    font-family: Inter-SemiBold;
 }
 
 
@@ -64,7 +65,7 @@
  body {
      line-height: 1;
      min-height: 100%;
-     font-family: 'Inter-Semibold', sans-serif;
+     font-family: Inter-Semibold;
  }
 
  body {
@@ -72,7 +73,7 @@
      background-attachment: fixed;
      align-items: center;
      display: block;
-  font-family:'Inter-SemiBold'
+  font-family:Inter-SemiBold;
      justify-content: center;
      min-height: 100vh;
      text-align: center;
@@ -107,7 +108,7 @@
 #rettangolo {
 	z-index: 5;
 	position: relative;
-    
+
     background-color:#f2f1f3;
     width: 100%;
     margin-left: 40%;
@@ -125,7 +126,7 @@
 	text-align: right;
 	margin-right: 0px;
 	padding-right: 15px;
-  font-family:'Inter-SemiBold'}
+  font-family:Inter-SemiBold;}
 
 
 .sidearchive {
@@ -136,27 +137,128 @@
 	text-align: left;}
 
 
+/*.skip{
+     font-size:1em;
+        margin-left: -1200px;
+          margin-top: 4em;
+     animation: appare 3s;
+     animation-delay: 0s;
+    
+     transition-timing-function: linear;
+
+ } */
+
+
+
+@keyframes appare {
+    
+ 0%  {opacity:0;}
+    50%{opacity:0;}
+     100%  {opacity:1;}
+
+
+ }
+
+#btn_about
+	{  background-color:#f2f1f3;
+        margin-left: -1100px;
+          margin-top: 5em;
+		width: 100px;
+		height: 50px;
+		border-radius: 70px;
+		font-size: 12px;
+
+         -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.73);
+     -moz-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.73);
+             animation: appare 3s;
+     animation-delay: 0s;
+    
+     transition-timing-function: linear;
+	}
+
+#btn_about:hover
+	{  cursor: pointer;
+	}
+
+
+        #section02 a {
+  padding-top: 60px;
+}
+#section02 a span {
+    margin-top: 700px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1.5px solid black;
+  border-radius: 100%;
+  box-sizing: border-box;
+        animation: appare 3s;
+     animation-delay: 0s;
+     transition-timing-function: linear;
+}
+#section02 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+   
+  box-sizing: border-box;
+}
+
+
+#btn_about2
+	{  background-color:#7D14ED;
+        margin-left: -800px;
+          margin-top: 5em;
+		width: 200px;
+		height: 50px;
+		border-radius: 70px;
+		font-size: 12px;
+
+         -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.73);
+     -moz-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.73);
+             animation: mymove 3s;
+     animation-delay: 0s;
+    
+     transition-timing-function: linear;
+	}
+
+#btn_about2:hover
+	{  cursor: pointer;
+	}
+
+
+        #section02 a {
+  padding-top: 60px;
+}
+
+
+
+
  /**************** FINE *********************/
 
 
- ol,
- ul {
-     list-style: none;
- }
 
  p {
      margin: 1em 0;
      line-height: 1.1em;
      color: #7D14ED;
-       font-family:'Inter-SemiBold'
+       font-family:Inter-SemiBold;
 
      font-size: 1.2em
  }
 
- q {
-     font-style: italic;
-     color: #333;
- }
+
 
  h1 {
      font-size: 2.7em;
@@ -178,7 +280,7 @@
      font-size: 2em;
      margin: 2em 0 1em 0;
      line-height: 1.3em;
-     font-family:'Inter-SemiBold'
+     font-family:Inter-SemiBold;
  }
 
  .h2viola {
@@ -186,7 +288,7 @@
      font-size: 2.3em;
      margin: 2em 0 1em 0;
      line-height: 1.3em;
-       font-family:'Inter-SemiBold'
+       font-family:Inter-SemiBold;
  }
 
 
@@ -198,7 +300,7 @@
      line-height: 1.1em;
      margin-top: -10px;
      text-align: center;
-           font-family:'Inter-SemiBold'
+           font-family:Inter-SemiBold;
  }
 
 
@@ -226,16 +328,16 @@
 
 
  a {
-     color: 5a4596;
+    color: #7D14ED;
      font-size: 1.11em;
      font-weight: 600;
      margin: 1em 0;
      text-decoration: none;
-       font-family:'Inter-SemiBold'
+       font-family:Inter-SemiBold;
  }
 
  a:hover {
-     color: #ff8b00;
+     color: black;
      font-size: 1.11em;
      font-weight: 600;
      margin: 1em 0;
@@ -246,25 +348,9 @@
      margin-left: 1em;
  }
 
- #progress {
-     height: 2%;
-     background: #444;
-     bottom: 0;
-     z-index: 200;
- }
 
- #scrollbar {
-     position: fixed;
-     right: 2px;
-     height: 40px;
-     width: 6px;
-     background: #444;
-     background: rgba(0, 0, 0, 0.6);
-     border: 1px solid rgba(255, 255, 255, 0.6);
-     z-index: 300;
-     border-radius: 3px;
- }
 
+ #
  .skrollr-desktop #scrollbar {
      display: none;
  }
@@ -347,7 +433,7 @@
 
  .parolebig {
     color: #7D14ED;
-   font-family:'Inter-SemiBold'
+   font-family:Inter-SemiBold;
      background: none;
      font-size: 4.5em;
  }
@@ -356,7 +442,7 @@
      color:#7D14ED;
      background: none;
      font-size: 4.5em;
-       font-family:'Inter-SemiBold'
+       font-family:Inter-SemiBold;
  }
 
  .icona {
@@ -413,25 +499,30 @@
 
 
 
- .linkarchive {
-  font-family:'Inter-SemiBold'
-     color: #7D14ED;
- }
-
- .linkarchive:hover {
-  font-family:'Inter-SemiBold'
-     color: black;
- }
+ 
 
  .linkarchivebox {
-     font-size: 1.5em;
-     margin-top: 5em;
-     margin-left: 5em;
+     font-size: 14px;
+     margin-top: 8em;
+     padding-top:17px;
+     margin-left: 47em;
+  text-align: center;
+     	width: 260px;
+		height: 50px;
+		border-radius: 70px;
+     background-color: #7D14ED;
+     
+          animation: appare 3s;
+     animation-delay: 0s;
+    
+     transition-timing-function: linear;
+
 
  }
 
+
 .sixreasons{
-      font-family:'Inter-SemiBold'
+      font-family:Inter-SemiBold;
      font-size: 1.5em;
 margin-left: 8.5%;
  }
@@ -439,11 +530,6 @@ margin-left: 8.5%;
 
 
 
-
- .twitter-share-button,
- .twitter-follow-button {
-     vertical-align: middle;
- }
 
  .box {
      position: relative;
@@ -939,6 +1025,7 @@ width: 10em;
 margin-top: 3%;
       font-size: 0.5em;
       margin-left: 10%;
+     
 
    
      }
